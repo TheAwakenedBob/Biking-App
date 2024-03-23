@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "248007913861",
+    "firebase_url": "https://gccapp-5d03f-default-rtdb.firebaseio.com",
+    "project_id": "gccapp-5d03f",
+    "storage_bucket": "gccapp-5d03f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248007913861:android:8a4d87921d071e99ed14ec",
+        "android_client_info": {
+          "package_name": "com.example.gcc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwHATDhGbkkld3FANSpRRSfu4tsA60MW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

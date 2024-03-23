@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GCC</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Back to Login</string>
+    <string name="click_to_register">Don\'t have an account? Register Here</string>
+    <string name="logout">logout</string>
+    <string-array name="events">
+        <item>Time Trial</item>
+        <item>Hill Climb</item>
+        <item>Road Stage Race</item>
+        <item>Road Race</item>
+        <item>Group Ride</item>
+    </string-array>
+</resources>

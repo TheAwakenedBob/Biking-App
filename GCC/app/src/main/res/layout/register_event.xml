@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:id="@+id/eventType4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="44dp"-->
+<!--            android:background="#6750A4"-->
+<!--            android:gravity="center"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20dp" />-->
+
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="13dp" />-->
+
+        <ListView
+            android:id="@+id/Fields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate the event" />
+
+</LinearLayout>

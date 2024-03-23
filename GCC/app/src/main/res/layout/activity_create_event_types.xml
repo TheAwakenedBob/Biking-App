@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="#6750A4"
+        android:gravity="center"
+        android:text="Create a new event type"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You must fill out at least 2 fields along with the name"
+        android:gravity="center" />
+
+    <EditText
+    android:id="@+id/eventName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="text"
+    android:hint="Enter event name here"
+    tools:hint="Category Name" />
+
+<LinearLayout
+    android:id="@+id/userAddition"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fieldName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter field names here"
+        tools:hint="Category Name" />
+
+    <ListView
+        android:id="@+id/fieldsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addFieldNameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClickAddFieldName"
+        android:text="Add field name" />
+
+</LinearLayout>
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="18dp" />
+
+<Button
+    android:id="@+id/saveButton"
+    android:layout_width="213dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:onClick="onClickSaveButton"
+    android:text="Save" />
+
+<Button
+    android:id="@+id/backButton"
+    android:layout_width="213dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:onClick="onClickBackButton"
+    android:text="Back" />
+
+<ListView
+    android:id="@+id/eventTypeListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp" />
+
+</LinearLayout>
